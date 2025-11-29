@@ -1,0 +1,23 @@
+{
+  "name": "sonauto-api-proxy",
+  "version": "1.0.0",
+  "description": "基於 Cloudflare Workers 的 Sonauto.ai 音樂生成 API 反向代理",
+  "main": "src/advanced.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:production": "wrangler deploy --env production"
+  },
+  "keywords": [
+    "sonauto",
+    "music-generation",
+    "api-proxy",
+    "cloudflare-workers",
+    "reverse-proxy"
+  ],
+  "author": "kinai9661",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

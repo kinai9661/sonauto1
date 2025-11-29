@@ -1,0 +1,16 @@
+name = "sonauto-api-proxy"
+main = "src/advanced.js"
+compatibility_date = "2025-11-29"
+
+# 環境配置
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+# 可選: 綁定自定義域名
+# [[env.production.routes]]
+# pattern = "api.yourdomain.com/*"
+# zone_name = "yourdomain.com"
+
+# 開發環境配置
+[env.development]
+vars = { ENVIRONMENT = "development" }
